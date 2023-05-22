@@ -1,0 +1,9 @@
+make test --> create AST and C++ file from test.txt file "present in current directory".
+          --> to run generated c++ file use, g++ test.cpp -o test.out && ./test.out
+
+
+make tests --> create AST and C++ file from all testcases "present in directory testcase"
+           --> create AST and C++ code in AST_output and CPP_output directory respectivaly.
+           --> to run generated c++ file use, g++ {./CPP_output/{filename}} -o {filename}.out && ./{filename}.out
+
+make clean ---> delete all generated files.
